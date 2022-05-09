@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="pi@192.168.42.185:22" type="ssh/sftp" uuid="142a96dc-ed58-42a5-afd1-c8d35f07f617">
+        <config>
+          <option name="projectRootOnTarget" value="/home/pi/go/src/lift" />
+          <option name="serverName" value="pi@192.168.42.185:22 password" />
+        </config>
+        <ContributedStateBase type="GoLanguageRuntime">
+          <config>
+            <option name="compiledExecutablesVolume">
+              <VolumeState>
+                <option name="remotePath" value="/home/pi/go/src/lift/build" />
+              </VolumeState>
+            </option>
+            <option name="goPath" value="/home/pi/go" />
+            <option name="goRoot" value="/usr/local/go/bin/go" />
+            <option name="goVersion" value="go1.17.6 linux/arm" />
+            <option name="projectSourcesVolume">
+              <VolumeState>
+                <option name="remotePath" value="/home/pi/go/src/lift" />
+              </VolumeState>
+            </option>
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>

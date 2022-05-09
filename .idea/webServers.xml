@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="09362e80-88f7-43fe-9764-9c15bc154de7" name="NanoPI">
+        <fileTransfer accessType="SFTP" host="192.168.42.185" port="22" sshConfigId="e4e68149-4d1b-43a4-8173-56750a23e333" sshConfig="pi@192.168.42.185:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
