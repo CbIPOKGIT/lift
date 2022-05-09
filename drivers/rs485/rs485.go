@@ -6,6 +6,7 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
+	"log"
 	"strconv"
 	"strings"
 	"time"
@@ -51,7 +52,7 @@ func (b BoardTypes_t) String() string {
 
 var (
 	DefaultReadTimeout          int = 60  // in milliseconds
-	DefaultSearchInterval       int = 200 // in milliseconds
+	DefaultSearchInterval       int = 600 // in milliseconds
 	DefaultSearchProcessTimeout int = 60  // in seconds
 )
 
@@ -209,12 +210,15 @@ Loop:
 
 func (r *RS485) GetBoardType(addr byte) (BoardTypes_t, error) {
 	response := r.DoRequest(addr, "ATCPUID?")
+	log.Println("Response")
+	log.Println(response.Response)
+	log.Println(response.Err)
 	if response.Err != nil {
 		return 0, response.Err
 	}
-	//fmt.Printf("%s\n", response.Response)
-	// fmt.Println(response.Response)
 	b := string(response.Response[len(response.Response)-2:])
+	log.Println("Board type from response")
+	log.Println(b)
 	d, err := strconv.Atoi(b)
 	if err != nil {
 		return 0, err

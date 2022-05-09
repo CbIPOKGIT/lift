@@ -1,8 +1,16 @@
 package board
 
 import (
+	"log"
+
 	"github.com/CbIPOKGIT/lift/drivers/rs485"
 )
+
+type BoardData struct {
+	Id           uint8
+	CpuId        uint64
+	ReadInterval uint16
+}
 
 type Board struct {
 	Id           uint8
@@ -15,6 +23,26 @@ type Board struct {
 	Port         *rs485.RS485
 }
 
-func New() (*Board, error) {
-	return nil, nil
+func New(port *rs485.RS485, data BoardData) (*Board, error) {
+	board := &Board{
+		Id:           data.Id,
+		CpuId:        data.CpuId,
+		ReadInterval: data.ReadInterval,
+		Port:         port,
+		Status:       0,
+	}
+
+	if err := port.SetAddr(board.Id, board.CpuId); err != nil {
+		return nil, err
+	}
+
+	boardType, err := port.GetBoardType(board.Id)
+	if err != nil {
+		log.Println("Error get board type")
+		log.Println(err)
+		boardType = rs485.DoorBoard
+	}
+
+	board.BoardType = boardType
+	return board, nil
 }

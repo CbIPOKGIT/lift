@@ -1,5 +1,7 @@
 package configs
 
+const BOARD_READ_INTERVAL uint16 = 1500
+
 const Rs232Adr = "/dev/ttyS2"
 const Rs232Baud = 115200
 const Rs232Timeout = 300

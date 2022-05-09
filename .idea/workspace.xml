@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84a1069a-1df3-4c04-8e50-f02dd7331377" name="Changes" comment="" />
+    <list default="true" id="84a1069a-1df3-4c04-8e50-f02dd7331377" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/mainboard.go" beforeDir="false" afterPath="$PROJECT_DIR$/configs/mainboard.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/rs485/rs485.go" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/rs485/rs485.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/board/fabrica.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/board/fabrica.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/mainboard/fabrica.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/mainboard/fabrica.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/mainboard/mainboard.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/mainboard/mainboard.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +36,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28mSZo8yX3uSz569ehTTN9iRTLz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />

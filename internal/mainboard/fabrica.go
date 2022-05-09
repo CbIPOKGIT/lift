@@ -4,11 +4,21 @@ import (
 	"github.com/CbIPOKGIT/lift/configs"
 	"github.com/CbIPOKGIT/lift/drivers/rs232"
 	"github.com/CbIPOKGIT/lift/drivers/rs485"
+	"github.com/CbIPOKGIT/lift/internal/board"
+	"github.com/CbIPOKGIT/lift/internal/storage"
 )
+
+type Boards []*board.Board
 
 type MainBoard struct {
 	P232 *rs232.RS232
 	P485 *rs485.RS485
+
+	// Список підключених плат
+	Boards Boards
+
+	// Локальне сховище для локальних данних
+	Storage storage.Storage
 }
 
 func New() (*MainBoard, error) {
@@ -24,10 +34,11 @@ func New() (*MainBoard, error) {
 		return nil, err
 	}
 
+	// Підключаємо сховище
+	mainBoard.Storage = storage.New()
+
 	// Підключаємо борди
-	if err := mainBoard.LoadBoards(); err != nil {
-		return nil, err
-	}
+	mainBoard.LoadBoards()
 
 	return mainBoard, nil
 }
