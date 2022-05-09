@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84a1069a-1df3-4c04-8e50-f02dd7331377" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/mainboard.go" beforeDir="false" afterPath="$PROJECT_DIR$/configs/mainboard.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/rs485/rs485.go" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/rs485/rs485.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/board/fabrica.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/board/fabrica.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/mainboard/fabrica.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/mainboard/fabrica.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/mainboard/mainboard.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/mainboard/mainboard.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-    </list>
+    <list default="true" id="84a1069a-1df3-4c04-8e50-f02dd7331377" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

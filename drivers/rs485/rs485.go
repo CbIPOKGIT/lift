@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"lift/internal/serial"
-	"lift/pkg/crc"
+	"github.com/CbIPOKGIT/lift/drivers/serial"
+	"github.com/CbIPOKGIT/lift/pkg/crc"
 )
 
 const (
