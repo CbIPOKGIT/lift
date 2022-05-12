@@ -9,7 +9,7 @@ const Rs232StopByte = 0x0D
 
 const Rs485Adr = "/dev/ttyUSB0"
 const Rs485Baud = 115200
-const Rs485Timeout = 600
+const Rs485Timeout = 60
 const Rs485StartByte = 0xFA
 const Rs485StopByte = 0xFE
 

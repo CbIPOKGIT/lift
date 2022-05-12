@@ -6,6 +6,7 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
+	"log"
 	"strconv"
 	"strings"
 	"time"
@@ -208,11 +209,12 @@ Loop:
 
 func (r *RS485) GetBoardType(addr byte) (BoardTypes_t, error) {
 	response := r.DoRequest(addr, "ATCPUID?")
+	log.Println("Type response")
+	log.Println(string(response.Response))
 	if response.Err != nil {
 		return 0, response.Err
 	}
-	//fmt.Printf("%s\n", response.Response)
-	// fmt.Println(response.Response)
+
 	b := string(response.Response[len(response.Response)-2:])
 	d, err := strconv.Atoi(b)
 	if err != nil {
@@ -371,7 +373,7 @@ func (r *RS485) SetAddr(addr byte, cpuid uint64) error {
 
 	resp := r.DoRequest(255, mess)
 
-	fmt.Println(resp)
+	// fmt.Println(resp)
 	if resp.Err != nil {
 		fmt.Println(resp.Err.Error())
 	}

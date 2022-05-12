@@ -5,9 +5,11 @@ import (
 	"time"
 
 	"github.com/CbIPOKGIT/lift/drivers/rs485"
+	"github.com/CbIPOKGIT/lift/protos"
 )
 
-func (board *Board) ReadData() {
+// Зчитуємо дані з плати
+func (board *Board) ReadData(messenger protos.BoardSpeaker) {
 	timer := time.NewTicker(time.Millisecond * time.Duration(board.ReadInterval))
 	defer timer.Stop()
 
@@ -23,63 +25,29 @@ func (board *Board) ReadData() {
 	for {
 		select {
 		case <-timer.C:
-			log.Println(board.BoardType)
+			board.Lock()
+
 			response := board.Port.DoRequest(board.Id, command)
 
-			if response.Err == nil {
-				data := string(response.Response)
-				log.Println(data)
-			} else {
+			board.Unlock()
+
+			if response.Err != nil {
 				log.Println("Error while response")
 				log.Println(response.Err)
+				continue
 			}
+
+			if board.CurrentData != string(response.Response) {
+				message := protos.BoardMessage{
+					Message:   response.Response,
+					BoardType: int(board.BoardType),
+				}
+
+				messenger.ReciveFromBoard(&message)
+
+				board.CurrentData = string(response.Response)
+			}
+
 		}
 	}
-
-	// defer t1.Stop()
-
-	// configs.Loger("started reader for ", board.Id)
-	// port := board.Port
-
-	// cmdReq := "ATS?"
-	// if board.BoardType == rs485.MotorBoard {
-	// 	cmdReq = "ATSPEED?"
-	// }
-
-	// for {
-	// 	select {
-	// 	case <-*board.terminate:
-	// 		configs.Loger("terminate board", board.Id)
-	// 		return
-	// 	case message := <-*board.TriggerChan:
-	// 		fmt.Println("trigger", message)
-	// 		*board.LogerCh <- configs.Event{
-	// 			BoardId:    board.Id,
-	// 			EventsType: "Trigger",
-	// 			Data:       message,
-	// 			IsChange:   true,
-	// 		}
-
-	// 	case <-t1.C:
-	// 		board.isBusy.Lock()
-	// 		rsp2 := port.DoRequest(board.Id, cmdReq)
-	// 		board.isBusy.Unlock()
-	// 		if rsp2.Err == nil {
-	// 			currData := string(rsp2.Response)
-	// 			isNewData := board.checkData(currData)
-	// 			ev := configs.Event{
-	// 				BoardId:    board.Id,
-	// 				EventsType: board.GetType(),
-	// 				Name:       board.Name,
-	// 				Refresh:    board.ReadInterval,
-	// 				Data:       currData,
-	// 				Status:     board.Status,
-	// 				IsChange:   isNewData,
-	// 				Chanels:    board.Chanels,
-	// 			}
-	// 			*board.LogerCh <- ev
-	// 		}
-	// 	}
-	// }
-
 }

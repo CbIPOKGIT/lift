@@ -2,6 +2,7 @@ package board
 
 import (
 	"log"
+	"sync"
 
 	"github.com/CbIPOKGIT/lift/drivers/rs485"
 )
@@ -13,6 +14,7 @@ type BoardData struct {
 }
 
 type Board struct {
+	sync.Mutex
 	Id           uint8
 	CpuId        uint64
 	ReadInterval uint16
