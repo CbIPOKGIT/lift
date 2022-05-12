@@ -61,7 +61,7 @@ func (mb *MainBoard) createPort232() error {
 		return err
 	}
 
-	port.DoRequest("ATPING")
+	// port.DoRequest("ATPING")
 
 	port.DoRequest("ATLCDCLEAR")   //Треба переписати на окрему константу
 	port.DoRequest("ATLCDLIGHTON") //але я ще не знаю what a fuck is this

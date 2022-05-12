@@ -96,5 +96,7 @@ func (l *Logger) ConnectDisplay() error {
 	}
 	enc.Start()
 
+	log.Println("Encoder started")
+
 	return nil
 }
