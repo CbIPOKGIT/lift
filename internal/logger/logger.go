@@ -63,7 +63,7 @@ func New() *Logger {
 
 	logger.CreateServerSocket()
 
-	// logger.ConnectDisplay()
+	logger.ConnectDisplay()
 
 	go logger.Listen()
 
