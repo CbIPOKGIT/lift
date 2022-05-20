@@ -6,7 +6,7 @@ import (
 
 // Додаємо новий інтерфейс датчика
 func (l *Logger) AddBoard(boardType int) BoardInterface {
-	board := NewBoard(boardType, l.BoardsChannel)
+	board := NewBoard(boardType, l.sendMessageToServer)
 
 	l.Boards.Lock()
 	defer l.Boards.Unlock()
@@ -32,10 +32,11 @@ func (l *Logger) ReciveFromBoard(message *protos.BoardMessage) {
 
 func (l *Logger) ReciveFromMainboard(data *protos.MainboardMessage) {
 
-	handlers := map[bool]func(string){
-		true:  l.MainBoard.SetSensorMessage,
-		false: l.MainBoard.SetRelayMessage,
+	handlers := map[int]func(string){
+		1: l.MainBoard.SetSensorMessage,
+		2: l.MainBoard.SetRelayMessage,
+		3: l.MainBoard.SetVoltageMethod,
 	}
 
-	go handlers[data.Sensor](data.Message)
+	go handlers[data.Type](data.Message)
 }

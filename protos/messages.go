@@ -12,8 +12,8 @@ type BoardMessage struct {
 
 // Повідомлення с материнської плати
 type MainboardMessage struct {
-	// Датчик чи виходи
-	Sensor bool
+	// Датчики - 1, реле/входи - 2, вольтаж - 3
+	Type int
 
 	// Саме повідомлення
 	Message string

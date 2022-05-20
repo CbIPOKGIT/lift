@@ -29,6 +29,9 @@ type MainBoard struct {
 	// Поточний статус реле плати
 	StatusRelays string
 
+	// Поточний статус напруги
+	StatusVoltage string
+
 	// Список підключених плат
 	Boards Boards
 }

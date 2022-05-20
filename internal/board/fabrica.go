@@ -3,6 +3,7 @@ package board
 import (
 	"log"
 	"sync"
+	"time"
 
 	"github.com/CbIPOKGIT/lift/drivers/rs485"
 )
@@ -47,4 +48,30 @@ func New(port *rs485.RS485, data BoardData) (*Board, error) {
 
 	board.BoardType = boardType
 	return board, nil
+}
+
+func (board *Board) Test(port *rs485.RS485) {
+	ticker := time.NewTicker(time.Second)
+	defer ticker.Stop()
+
+	var sCount, eCount int
+
+	for i := 0; i < 10; i++ {
+		select {
+		case <-ticker.C:
+			if err := port.SetAddr(board.Id, board.CpuId); err != nil {
+				log.Fatal("Error set address", err)
+			}
+
+			if boardType, err := port.GetBoardType(board.Id); err == nil {
+				log.Println("Success", boardType)
+				sCount++
+			} else {
+				log.Println("Error", err)
+				eCount++
+			}
+		}
+	}
+
+	log.Printf("Success - %d, error - %d. Percent - %d", sCount, eCount, eCount*100/(eCount+sCount))
 }

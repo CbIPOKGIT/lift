@@ -7,17 +7,19 @@
     <list default="true" id="84a1069a-1df3-4c04-8e50-f02dd7331377" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/commands.go" beforeDir="false" afterPath="$PROJECT_DIR$/configs/commands.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/mainboard.go" beforeDir="false" afterPath="$PROJECT_DIR$/configs/mainboard.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/rs485/rs485.go" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/rs485/rs485.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/board/board.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/board/board.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/serial/serial.go" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/serial/serial.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/serial/serial_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/serial/serial_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/internal/board/fabrica.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/board/fabrica.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/logger/boards-interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/logger/boards-interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/logger/boards-speaker.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/logger/boards-speaker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/logger/logger.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/logger/logger.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/logger/main-board.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/logger/main-board.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/internal/mainboard/fabrica.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/mainboard/fabrica.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/internal/mainboard/listen.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/mainboard/listen.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/internal/mainboard/mainboard.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/mainboard/mainboard.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage.bin_bak" beforeDir="false" afterPath="$PROJECT_DIR$/storage.bin_bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/conv/conv.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/conv/conv.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protos/messages.go" beforeDir="false" afterPath="$PROJECT_DIR$/protos/messages.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +39,11 @@
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/internal/logger/logger.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/internal/mainboard/mainboard.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/main.go" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

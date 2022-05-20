@@ -2,12 +2,15 @@ package logger
 
 import (
 	"log"
+	"strconv"
 	"sync"
 
 	wsconnections "github.com/CbIPOKGIT/lift/pkg/ws-connections"
 	"github.com/CbIPOKGIT/lift/protos"
-	"github.com/mclaut/ec11"
 )
+
+// Функція, що відправляє дані на сервер
+type MessageHandler func(string, int, string)
 
 // Структура повідомлення від датчика до сервера
 type MessageToServer struct {
@@ -55,15 +58,12 @@ func New() *Logger {
 	logger.MainBoard = new(MainBoard)
 
 	// Канал передачі показників на сервер
-	logger.MainBoard.ToServer = logger.BoardsChannel
-	logger.MainBoard.JustInited = true
+	logger.MainBoard.MessageHandler = logger.sendMessageToServer
 
 	// Створюємо канал для передачі команд на материнську плату
 	logger.MainboardCommandsChannel = make(protos.MainboardCommandChannel)
 
 	logger.CreateServerSocket()
-
-	logger.ConnectDisplay()
 
 	go logger.Listen()
 
@@ -85,18 +85,13 @@ func (l *Logger) GetCommandsBus() protos.MainboardCommandChannel {
 	return l.MainboardCommandsChannel
 }
 
-// Підключаємось до дісплея
-func (l *Logger) ConnectDisplay() error {
-	log.Println("Connection display")
-
-	enc, err := ec11.New(15, 363, 14)
-	if err != nil {
-		log.Println("Error start enc", err)
-		return err
+// Форматуємо і відправляємо повідомлення на сервер
+func (l *Logger) sendMessageToServer(command string, status int, message string) {
+	data := &MessageToServer{
+		Command: command,
+		Message: message,
+		Status:  strconv.Itoa(status),
 	}
-	enc.Start()
 
-	log.Println("Encoder started")
-
-	return nil
+	l.BoardsChannel <- data
 }

@@ -8,6 +8,8 @@ func TranslateCommand(cmd string) string {
 		return "ATO=2"
 	case "status_sensors":
 		return "ATS?"
+	case "status_voltage":
+		return "ATVOLTAGE?"
 	default:
 		return cmd
 	}

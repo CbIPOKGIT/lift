@@ -1,0 +1,676 @@
+2022/05/19 08:44:47 Successfull connected to server
+2022/05/19 08:44:49 Type response
+2022/05/19 08:44:49 ATCPUID=4718660,48
+2022/05/19 08:44:49 Success MotorBoard
+2022/05/19 08:44:50 Type response
+2022/05/19 08:44:50 ATCPUID=4718660,48
+2022/05/19 08:44:50 Success MotorBoard
+2022/05/19 08:44:51 Type response
+2022/05/19 08:44:51 ATCPUID=4718660,48
+2022/05/19 08:44:51 Success MotorBoard
+2022/05/19 08:44:52 Type response
+2022/05/19 08:44:52 ATCPUID=4718660,48
+2022/05/19 08:44:52 Success MotorBoard
+2022/05/19 08:44:53 Type response
+2022/05/19 08:44:53 ATCPUID=4718660,48
+2022/05/19 08:44:53 Success MotorBoard
+2022/05/19 08:44:54 Type response
+2022/05/19 08:44:54 ATCPUID=4718660,48
+2022/05/19 08:44:54 Success MotorBoard
+2022/05/19 08:44:55 Type response
+2022/05/19 08:44:55 ATCPUID=4718660,48
+2022/05/19 08:44:55 Success MotorBoard
+2022/05/19 08:44:56 Type response
+2022/05/19 08:44:56 ATCPUID=4718660,48
+2022/05/19 08:44:56 Success MotorBoard
+2022/05/19 08:44:57 Type response
+2022/05/19 08:44:57 ATCPUID=4718660,48
+2022/05/19 08:44:57 Success MotorBoard
+2022/05/19 08:44:58 Type response
+2022/05/19 08:44:58 ATCPUID=4718660,48
+2022/05/19 08:44:58 Success MotorBoard
+2022/05/19 08:44:58 Success - 10, error - 0. Percent - 0
+2022/05/19 08:44:59 Type response
+2022/05/19 08:44:59 ATCPUID=5242956,32
+2022/05/19 08:44:59 Success SensorBoard
+2022/05/19 08:45:00 Type response
+2022/05/19 08:45:00 ATCPUID=5242956,32
+2022/05/19 08:45:00 Success SensorBoard
+2022/05/19 08:45:01 Type response
+2022/05/19 08:45:01 ATCPUID=5242956,32
+2022/05/19 08:45:01 Success SensorBoard
+2022/05/19 08:45:02 Type response
+2022/05/19 08:45:02 ATCPUID=5242956,32
+2022/05/19 08:45:02 Success SensorBoard
+2022/05/19 08:45:03 Type response
+2022/05/19 08:45:03 ATCPUID=5242956,32
+2022/05/19 08:45:03 Success SensorBoard
+2022/05/19 08:45:04 Type response
+2022/05/19 08:45:04 ATCPUID=5242956,32
+2022/05/19 08:45:04 Success SensorBoard
+2022/05/19 08:45:05 Type response
+2022/05/19 08:45:05 ATCPUID=5242956,32
+2022/05/19 08:45:05 Success SensorBoard
+2022/05/19 08:45:06 Type response
+2022/05/19 08:45:06 ATCPUID=5242956,32
+2022/05/19 08:45:06 Success SensorBoard
+2022/05/19 08:45:07 Type response
+2022/05/19 08:45:07 ATCPUID=5242956,32
+2022/05/19 08:45:07 Success SensorBoard
+2022/05/19 08:45:08 Type response
+2022/05/19 08:45:08 ATCPUID=5242956,32
+2022/05/19 08:45:08 Success SensorBoard
+2022/05/19 08:45:08 Success - 10, error - 0. Percent - 0
+2022/05/19 08:45:09 Type response
+2022/05/19 08:45:09 ATERRORCMD
+2022/05/19 08:45:09 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:45:10 Type response
+2022/05/19 08:45:10 ATERRORCMD
+2022/05/19 08:45:10 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:45:11 Type response
+2022/05/19 08:45:11 ATERRORCMD
+2022/05/19 08:45:11 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:45:12 Type response
+2022/05/19 08:45:12 ATERRORCMD
+2022/05/19 08:45:12 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:45:13 Type response
+2022/05/19 08:45:13 ATERRORCMD
+2022/05/19 08:45:13 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:45:14 Type response
+2022/05/19 08:45:14 ATERRORCMD
+2022/05/19 08:45:14 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:45:15 Type response
+2022/05/19 08:45:15 ATERRORCMD
+2022/05/19 08:45:15 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:45:16 Type response
+2022/05/19 08:45:16 ATERRORCMD
+2022/05/19 08:45:16 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:45:17 Type response
+2022/05/19 08:45:17 ATERRORCMD
+2022/05/19 08:45:17 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:45:18 Type response
+2022/05/19 08:45:18 ATERRORCMD
+2022/05/19 08:45:18 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:45:18 Success - 0, error - 10. Percent - 100
+
+
+--------------------------------------------------------------------------------------------------
+
+2022/05/19 08:46:00 Successfull connected to server
+2022/05/19 08:46:01 Type response
+2022/05/19 08:46:01 ATCPUID=4718660,48
+2022/05/19 08:46:01 Success MotorBoard
+2022/05/19 08:46:02 Type response
+2022/05/19 08:46:02 ATCPUID=4718660,48
+2022/05/19 08:46:02 Success MotorBoard
+2022/05/19 08:46:03 Type response
+2022/05/19 08:46:03 ATCPUID=4718660,48
+2022/05/19 08:46:03 Success MotorBoard
+2022/05/19 08:46:04 Type response
+2022/05/19 08:46:04 ATCPUID=4718660,48
+2022/05/19 08:46:04 Success MotorBoard
+2022/05/19 08:46:05 Type response
+2022/05/19 08:46:05 ATCPUID=4718660,48
+2022/05/19 08:46:05 Success MotorBoard
+2022/05/19 08:46:06 Type response
+2022/05/19 08:46:06 ATCPUID=4718660,48
+2022/05/19 08:46:06 Success MotorBoard
+2022/05/19 08:46:07 Type response
+2022/05/19 08:46:07 ATCPUID=4718660,48
+2022/05/19 08:46:07 Success MotorBoard
+2022/05/19 08:46:08 Type response
+2022/05/19 08:46:08 ATCPUID=4718660,48
+2022/05/19 08:46:08 Success MotorBoard
+2022/05/19 08:46:09 Type response
+2022/05/19 08:46:09 ATCPUID=4718660,48
+2022/05/19 08:46:09 Success MotorBoard
+2022/05/19 08:46:10 Type response
+2022/05/19 08:46:10 ATCPUID=4718660,48
+2022/05/19 08:46:10 Success MotorBoard
+2022/05/19 08:46:10 Success - 10, error - 0. Percent - 0
+2022/05/19 08:46:11 Type response
+2022/05/19 08:46:11 ATCPUID=5242956,32
+2022/05/19 08:46:11 Success SensorBoard
+2022/05/19 08:46:12 Type response
+2022/05/19 08:46:12 ATCPUID=5242956,32
+2022/05/19 08:46:12 Success SensorBoard
+2022/05/19 08:46:13 Type response
+2022/05/19 08:46:13 ATCPUID=5242956,32
+2022/05/19 08:46:13 Success SensorBoard
+2022/05/19 08:46:14 Type response
+2022/05/19 08:46:14 ATCPUID=5242956,32
+2022/05/19 08:46:14 Success SensorBoard
+2022/05/19 08:46:15 Type response
+2022/05/19 08:46:15 ATCPUID=5242956,32
+2022/05/19 08:46:15 Success SensorBoard
+2022/05/19 08:46:16 Type response
+2022/05/19 08:46:16 ATCPUID=5242956,32
+2022/05/19 08:46:16 Success SensorBoard
+2022/05/19 08:46:17 Type response
+2022/05/19 08:46:17 ATCPUID=5242956,32
+2022/05/19 08:46:17 Success SensorBoard
+2022/05/19 08:46:18 Type response
+2022/05/19 08:46:18 ATCPUID=5242956,32
+2022/05/19 08:46:18 Success SensorBoard
+2022/05/19 08:46:19 Type response
+2022/05/19 08:46:19 ATCPUID=5242956,32
+2022/05/19 08:46:19 Success SensorBoard
+2022/05/19 08:46:20 Type response
+2022/05/19 08:46:20 ATCPUID=5242956,32
+2022/05/19 08:46:20 Success SensorBoard
+2022/05/19 08:46:20 Success - 10, error - 0. Percent - 0
+2022/05/19 08:46:21 Type response
+2022/05/19 08:46:21 ATERRORCMD
+2022/05/19 08:46:21 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:46:22 Type response
+2022/05/19 08:46:22 ATERRORCMD
+2022/05/19 08:46:22 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:46:23 Type response
+2022/05/19 08:46:23 ATERRORCMD
+2022/05/19 08:46:23 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:46:24 Type response
+2022/05/19 08:46:24 ATERRORCMD
+2022/05/19 08:46:24 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:46:25 Type response
+2022/05/19 08:46:25 ATERRORCMD
+2022/05/19 08:46:25 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:46:26 Type response
+2022/05/19 08:46:26 ATERRORCMD
+2022/05/19 08:46:26 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:46:27 Type response
+2022/05/19 08:46:27 ATERRORCMD
+2022/05/19 08:46:27 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:46:28 Type response
+2022/05/19 08:46:28 ATERRORCMD
+2022/05/19 08:46:28 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:46:29 Type response
+2022/05/19 08:46:29 ATERRORCMD
+2022/05/19 08:46:29 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:46:30 Type response
+2022/05/19 08:46:30 ATERRORCMD
+2022/05/19 08:46:30 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:46:30 Success - 0, error - 10. Percent - 100
+
+----------------------------------------------------------------------------
+2021/04/02 05:53:03 Successfull connected to server
+2021/04/02 05:53:05 Type response
+2021/04/02 05:53:05 ATCPUID=4718660,48
+2021/04/02 05:53:05 Success MotorBoard
+2021/04/02 05:53:06 Type response
+2021/04/02 05:53:06 ATCPUID=4718660,48
+2021/04/02 05:53:06 Success MotorBoard
+2021/04/02 05:53:07 Type response
+2021/04/02 05:53:07 ATCPUID=4718660,48
+2021/04/02 05:53:07 Success MotorBoard
+2021/04/02 05:53:08 Type response
+2021/04/02 05:53:08 ATCPUID=4718660,48
+2021/04/02 05:53:08 Success MotorBoard
+2021/04/02 05:53:09 Type response
+2021/04/02 05:53:09 ATCPUID=4718660,48
+2021/04/02 05:53:09 Success MotorBoard
+2021/04/02 05:53:10 Type response
+2021/04/02 05:53:10 ATCPUID=4718660,48
+2021/04/02 05:53:10 Success MotorBoard
+2021/04/02 05:53:11 Type response
+2021/04/02 05:53:11 ATCPUID=4718660,48
+2021/04/02 05:53:11 Success MotorBoard
+2021/04/02 05:53:12 Type response
+2021/04/02 05:53:12 ATCPUID=4718660,48
+2021/04/02 05:53:12 Success MotorBoard
+2021/04/02 05:53:13 Type response
+2021/04/02 05:53:13 ATCPUID=4718660,48
+2021/04/02 05:53:13 Success MotorBoard
+2021/04/02 05:53:14 Type response
+2021/04/02 05:53:14 ATCPUID=4718660,48
+2021/04/02 05:53:14 Success MotorBoard
+2021/04/02 05:53:14 Success - 10, error - 0. Percent - 0
+2021/04/02 05:53:15 Type response
+2021/04/02 05:53:15 
+2021/04/02 05:53:15 Error encoding/hex: invalid byte: U+00FE 'þ'
+2021/04/02 05:53:16 Type response
+2021/04/02 05:53:16 
+2021/04/02 05:53:16 Error encoding/hex: invalid byte: U+00FE 'þ'
+2021/04/02 05:53:17 Type response
+2021/04/02 05:53:17 
+2021/04/02 05:53:17 Error encoding/hex: invalid byte: U+00FE 'þ'
+2021/04/02 05:53:18 Type response
+2021/04/02 05:53:18 
+2021/04/02 05:53:18 Error encoding/hex: invalid byte: U+00FE 'þ'
+2021/04/02 05:53:19 Type response
+2021/04/02 05:53:19 
+2021/04/02 05:53:19 Error encoding/hex: invalid byte: U+00FE 'þ'
+2021/04/02 05:53:20 Type response
+2021/04/02 05:53:20 
+2021/04/02 05:53:20 Error encoding/hex: invalid byte: U+00FE 'þ'
+2021/04/02 05:53:21 Type response
+2021/04/02 05:53:21 
+2021/04/02 05:53:21 Error encoding/hex: invalid byte: U+00FE 'þ'
+2021/04/02 05:53:22 Type response
+2021/04/02 05:53:22 
+2021/04/02 05:53:22 Error encoding/hex: invalid byte: U+00FE 'þ'
+2022/05/19 08:48:44 Type response
+2022/05/19 08:48:44 
+2022/05/19 08:48:44 Error encoding/hex: invalid byte: U+00FE 'þ'
+2022/05/19 08:48:45 Type response
+2022/05/19 08:48:45 
+2022/05/19 08:48:45 Error encoding/hex: invalid byte: U+00FE 'þ'
+2022/05/19 08:48:45 Success - 0, error - 10. Percent - 100
+2022/05/19 08:48:46 Type response
+2022/05/19 08:48:46 ATERRORCMD
+2022/05/19 08:48:46 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:48:47 Type response
+2022/05/19 08:48:47 ATERRORCMD
+2022/05/19 08:48:47 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:48:48 Type response
+2022/05/19 08:48:48 ATERRORCMD
+2022/05/19 08:48:48 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:48:49 Type response
+2022/05/19 08:48:49 ATERRORCMD
+2022/05/19 08:48:49 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:48:50 Type response
+2022/05/19 08:48:50 ATERRORCMD
+2022/05/19 08:48:50 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:48:51 Type response
+2022/05/19 08:48:51 ATERRORCMD
+2022/05/19 08:48:51 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:48:52 Type response
+2022/05/19 08:48:52 ATERRORCMD
+2022/05/19 08:48:52 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:48:53 Type response
+2022/05/19 08:48:53 ATERRORCMD
+2022/05/19 08:48:53 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:48:54 Type response
+2022/05/19 08:48:54 ATERRORCMD
+2022/05/19 08:48:54 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:48:55 Type response
+2022/05/19 08:48:55 ATERRORCMD
+2022/05/19 08:48:55 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:48:55 Success - 0, error - 10. Percent - 100
+
+------------------------------------------------------------------------------
+
+2022/05/19 08:50:15 Successfull connected to server
+2022/05/19 08:50:16 Type response
+2022/05/19 08:50:16 ATCPUID=4718660,48
+2022/05/19 08:50:16 Success MotorBoard
+2022/05/19 08:50:17 Type response
+2022/05/19 08:50:17 ATCPUID=4718660,48
+2022/05/19 08:50:17 Success MotorBoard
+2022/05/19 08:50:18 Type response
+2022/05/19 08:50:18 ATCPUID=4718660,48
+2022/05/19 08:50:18 Success MotorBoard
+2022/05/19 08:50:19 Type response
+2022/05/19 08:50:19 ATCPUID=4718660,48
+2022/05/19 08:50:19 Success MotorBoard
+2022/05/19 08:50:20 Type response
+2022/05/19 08:50:20 ATCPUID=4718660,48
+2022/05/19 08:50:20 Success MotorBoard
+2022/05/19 08:50:21 Type response
+2022/05/19 08:50:21 ATCPUID=4718660,48
+2022/05/19 08:50:21 Success MotorBoard
+2022/05/19 08:50:22 Type response
+2022/05/19 08:50:22 ATCPUID=4718660,48
+2022/05/19 08:50:22 Success MotorBoard
+2022/05/19 08:50:23 Type response
+2022/05/19 08:50:23 ATCPUID=4718660,48
+2022/05/19 08:50:23 Success MotorBoard
+2022/05/19 08:50:24 Type response
+2022/05/19 08:50:24 ATCPUID=4718660,48
+2022/05/19 08:50:24 Success MotorBoard
+2022/05/19 08:50:25 Type response
+2022/05/19 08:50:25 ATCPUID=4718660,48
+2022/05/19 08:50:25 Success MotorBoard
+2022/05/19 08:50:25 Success - 10, error - 0. Percent - 0
+2022/05/19 08:50:26 Type response
+2022/05/19 08:50:26 ATCPUID=5242956,32
+2022/05/19 08:50:26 Success SensorBoard
+2022/05/19 08:50:27 Type response
+2022/05/19 08:50:27 ATCPUID=5242956,32
+2022/05/19 08:50:27 Success SensorBoard
+2022/05/19 08:50:28 Type response
+2022/05/19 08:50:28 ATCPUID=5242956,32
+2022/05/19 08:50:28 Success SensorBoard
+2022/05/19 08:50:29 Type response
+2022/05/19 08:50:29 ATCPUID=5242956,32
+2022/05/19 08:50:29 Success SensorBoard
+2022/05/19 08:50:30 Type response
+2022/05/19 08:50:30 ATCPUID=5242956,32
+2022/05/19 08:50:30 Success SensorBoard
+2022/05/19 08:50:31 Type response
+2022/05/19 08:50:31 ATCPUID=5242956,32
+2022/05/19 08:50:31 Success SensorBoard
+2022/05/19 08:50:32 Type response
+2022/05/19 08:50:32 ATCPUID=5242956,32
+2022/05/19 08:50:32 Success SensorBoard
+2022/05/19 08:50:33 Type response
+2022/05/19 08:50:33 ATCPUID=5242956,32
+2022/05/19 08:50:33 Success SensorBoard
+2022/05/19 08:50:34 Type response
+2022/05/19 08:50:34 ATCPUID=5242956,32
+2022/05/19 08:50:34 Success SensorBoard
+2022/05/19 08:50:35 Type response
+2022/05/19 08:50:35 ATCPUID=5242956,32
+2022/05/19 08:50:35 Success SensorBoard
+2022/05/19 08:50:35 Success - 10, error - 0. Percent - 0
+2022/05/19 08:50:36 Type response
+2022/05/19 08:50:36 ATERRORCMD
+2022/05/19 08:50:36 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:50:37 Type response
+2022/05/19 08:50:37 ATERRORCMD
+2022/05/19 08:50:37 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:50:38 Type response
+2022/05/19 08:50:38 ATERRORCMD
+2022/05/19 08:50:38 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:50:39 Type response
+2022/05/19 08:50:39 ATERRORCMD
+2022/05/19 08:50:39 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:50:40 Type response
+2022/05/19 08:50:40 ATERRORCMD
+2022/05/19 08:50:40 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:50:41 Type response
+2022/05/19 08:50:41 ATERRORCMD
+2022/05/19 08:50:41 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:50:42 Type response
+2022/05/19 08:50:42 ATERRORCMD
+2022/05/19 08:50:42 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:50:43 Type response
+2022/05/19 08:50:43 ATERRORCMD
+2022/05/19 08:50:43 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:50:44 Type response
+2022/05/19 08:50:44 ATERRORCMD
+2022/05/19 08:50:44 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:50:45 Type response
+2022/05/19 08:50:45 ATERRORCMD
+2022/05/19 08:50:45 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:50:45 Success - 0, error - 10. Percent - 100
+
+
+-------------------------------------Reverse-------------------------------------
+
+2022/05/19 08:52:07 Successfull connected to server
+2022/05/19 08:52:08 Type response
+2022/05/19 08:52:08 ATERRORCMD
+2022/05/19 08:52:08 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:52:09 Type response
+2022/05/19 08:52:09 ATERRORCMD
+2022/05/19 08:52:09 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:52:10 Type response
+2022/05/19 08:52:10 ATERRORCMD
+2022/05/19 08:52:10 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:52:11 Type response
+2022/05/19 08:52:11 ATERRORCMD
+2022/05/19 08:52:11 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:52:12 Type response
+2022/05/19 08:52:12 ATERRORCMD
+2022/05/19 08:52:12 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:52:13 Type response
+2022/05/19 08:52:13 ATERRORCMD
+2022/05/19 08:52:13 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:52:14 Type response
+2022/05/19 08:52:14 ATERRORCMD
+2022/05/19 08:52:14 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:52:15 Type response
+2022/05/19 08:52:15 ATERRORCMD
+2022/05/19 08:52:15 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:52:16 Type response
+2022/05/19 08:52:16 ATERRORCMD
+2022/05/19 08:52:16 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:52:17 Type response
+2022/05/19 08:52:17 ATERRORCMD
+2022/05/19 08:52:17 Error strconv.Atoi: parsing "MD": invalid syntax
+2022/05/19 08:52:17 Success - 0, error - 10. Percent - 100
+2022/05/19 08:52:18 Type response
+2022/05/19 08:52:18 ATCPUID=5242956,32
+2022/05/19 08:52:18 Success SensorBoard
+2022/05/19 08:52:19 Type response
+2022/05/19 08:52:19 ATCPUID=5242956,32
+2022/05/19 08:52:19 Success SensorBoard
+2022/05/19 08:52:20 Type response
+2022/05/19 08:52:20 ATCPUID=5242956,32
+2022/05/19 08:52:20 Success SensorBoard
+2022/05/19 08:52:21 Type response
+2022/05/19 08:52:21 ATCPUID=5242956,32
+2022/05/19 08:52:21 Success SensorBoard
+2022/05/19 08:52:22 Type response
+2022/05/19 08:52:22 ATCPUID=5242956,32
+2022/05/19 08:52:22 Success SensorBoard
+2022/05/19 08:52:23 Type response
+2022/05/19 08:52:23 ATCPUID=5242956,32
+2022/05/19 08:52:23 Success SensorBoard
+2022/05/19 08:52:24 Type response
+2022/05/19 08:52:24 ATCPUID=5242956,32
+2022/05/19 08:52:24 Success SensorBoard
+2022/05/19 08:52:25 Type response
+2022/05/19 08:52:25 ATCPUID=5242956,32
+2022/05/19 08:52:25 Success SensorBoard
+2022/05/19 08:52:26 Type response
+2022/05/19 08:52:26 ATCPUID=5242956,32
+2022/05/19 08:52:26 Success SensorBoard
+2022/05/19 08:52:27 Type response
+2022/05/19 08:52:27 ATCPUID=5242956,32
+2022/05/19 08:52:27 Success SensorBoard
+2022/05/19 08:52:27 Success - 10, error - 0. Percent - 0
+2022/05/19 08:52:28 Type response
+2022/05/19 08:52:28 ATCPUID=4718660,48
+2022/05/19 08:52:28 Success MotorBoard
+2022/05/19 08:52:29 Type response
+2022/05/19 08:52:29 ATCPUID=4718660,48
+2022/05/19 08:52:29 Success MotorBoard
+2022/05/19 08:52:30 Type response
+2022/05/19 08:52:30 ATCPUID=4718660,48
+2022/05/19 08:52:30 Success MotorBoard
+2022/05/19 08:52:31 Type response
+2022/05/19 08:52:31 ATCPUID=4718660,48
+2022/05/19 08:52:31 Success MotorBoard
+2022/05/19 08:52:32 Type response
+2022/05/19 08:52:32 ATCPUID=4718660,48
+2022/05/19 08:52:32 Success MotorBoard
+2022/05/19 08:52:33 Type response
+2022/05/19 08:52:33 ATCPUID=4718660,48
+2022/05/19 08:52:33 Success MotorBoard
+2022/05/19 08:52:34 Type response
+2022/05/19 08:52:34 ATCPUID=4718660,48
+2022/05/19 08:52:34 Success MotorBoard
+2022/05/19 08:52:35 Type response
+2022/05/19 08:52:35 ATCPUID=4718660,48
+2022/05/19 08:52:35 Success MotorBoard
+2022/05/19 08:52:36 Type response
+2022/05/19 08:52:36 ATCPUID=4718660,48
+2022/05/19 08:52:36 Success MotorBoard
+2022/05/19 08:52:37 Type response
+2022/05/19 08:52:37 ATCPUID=4718660,48
+2022/05/19 08:52:37 Success MotorBoard
+2022/05/19 08:52:37 Success - 10, error - 0. Percent - 0
+
+-------------------------------------Reverse reboot-------------------------------------
+
+2021/04/02 05:53:06 Type response
+2021/04/02 05:53:06 
+2021/04/02 05:53:06 Error encoding/hex: invalid byte: U+00FE 'þ'
+2021/04/02 05:53:07 Type response
+2021/04/02 05:53:07 
+2021/04/02 05:53:07 Error encoding/hex: invalid byte: U+00FE 'þ'
+2021/04/02 05:53:08 Type response
+2021/04/02 05:53:08 
+2021/04/02 05:53:08 Error encoding/hex: invalid byte: U+00FE 'þ'
+2021/04/02 05:53:09 Type response
+2021/04/02 05:53:09 
+2021/04/02 05:53:09 Error encoding/hex: invalid byte: U+00FE 'þ'
+2021/04/02 05:53:10 Type response
+2021/04/02 05:53:10 
+2021/04/02 05:53:10 Error encoding/hex: invalid byte: U+00FE 'þ'
+2021/04/02 05:53:11 Type response
+2021/04/02 05:53:11 
+2021/04/02 05:53:11 Error encoding/hex: invalid byte: U+00FE 'þ'
+2021/04/02 05:53:12 Type response
+2021/04/02 05:53:12 
+2021/04/02 05:53:12 Error encoding/hex: invalid byte: U+00FE 'þ'
+2021/04/02 05:53:13 Type response
+2021/04/02 05:53:13 
+2021/04/02 05:53:13 Error encoding/hex: invalid byte: U+00FE 'þ'
+2021/04/02 05:53:14 Type response
+2021/04/02 05:53:14 
+2021/04/02 05:53:14 Error encoding/hex: invalid byte: U+00FE 'þ'
+2021/04/02 05:53:15 Type response
+2021/04/02 05:53:15 
+2021/04/02 05:53:15 Error encoding/hex: invalid byte: U+00FE 'þ'
+2021/04/02 05:53:15 Success - 0, error - 10. Percent - 100
+2021/04/02 05:53:16 Type response
+2021/04/02 05:53:16 ATCPUID=5242956,32
+2021/04/02 05:53:16 Success SensorBoard
+2021/04/02 05:53:17 Type response
+2021/04/02 05:53:17 ATCPUID=5242956,32
+2021/04/02 05:53:17 Success SensorBoard
+2021/04/02 05:53:18 Type response
+2021/04/02 05:53:18 ATCPUID=5242956,32
+2021/04/02 05:53:18 Success SensorBoard
+2021/04/02 05:53:19 Type response
+2021/04/02 05:53:19 ATCPUID=5242956,32
+2021/04/02 05:53:19 Success SensorBoard
+2021/04/02 05:53:20 Type response
+2021/04/02 05:53:20 ATCPUID=5242956,32
+2021/04/02 05:53:20 Success SensorBoard
+2021/04/02 05:53:21 Type response
+2021/04/02 05:53:21 ATCPUID=5242956,32
+2021/04/02 05:53:21 Success SensorBoard
+2021/04/02 05:53:22 Type response
+2021/04/02 05:53:22 ATCPUID=5242956,32
+2021/04/02 05:53:22 Success SensorBoard
+2022/05/19 08:54:44 Type response
+2022/05/19 08:54:44 ATCPUID=5242956,32
+2022/05/19 08:54:44 Success SensorBoard
+2022/05/19 08:54:45 Type response
+2022/05/19 08:54:45 ATCPUID=5242956,32
+2022/05/19 08:54:45 Success SensorBoard
+2022/05/19 08:54:46 Type response
+2022/05/19 08:54:46 ATCPUID=5242956,32
+2022/05/19 08:54:46 Success SensorBoard
+2022/05/19 08:54:46 Success - 10, error - 0. Percent - 0
+2022/05/19 08:54:47 Type response
+2022/05/19 08:54:47 ATCPUID=4718660,48
+2022/05/19 08:54:47 Success MotorBoard
+2022/05/19 08:54:48 Type response
+2022/05/19 08:54:48 ATCPUID=4718660,48
+2022/05/19 08:54:48 Success MotorBoard
+2022/05/19 08:54:49 Type response
+2022/05/19 08:54:49 ATCPUID=4718660,48
+2022/05/19 08:54:49 Success MotorBoard
+2022/05/19 08:54:50 Type response
+2022/05/19 08:54:50 ATCPUID=4718660,48
+2022/05/19 08:54:50 Success MotorBoard
+2022/05/19 08:54:51 Type response
+2022/05/19 08:54:51 ATCPUID=4718660,48
+2022/05/19 08:54:51 Success MotorBoard
+2022/05/19 08:54:52 Type response
+2022/05/19 08:54:52 ATCPUID=4718660,48
+2022/05/19 08:54:52 Success MotorBoard
+2022/05/19 08:54:53 Type response
+2022/05/19 08:54:53 ATCPUID=4718660,48
+2022/05/19 08:54:53 Success MotorBoard
+2022/05/19 08:54:54 Type response
+2022/05/19 08:54:54 ATCPUID=4718660,48
+2022/05/19 08:54:54 Success MotorBoard
+2022/05/19 08:54:55 Type response
+2022/05/19 08:54:55 ATCPUID=4718660,48
+2022/05/19 08:54:55 Success MotorBoard
+2022/05/19 08:54:56 Type response
+2022/05/19 08:54:56 ATCPUID=4718660,48
+2022/05/19 08:54:56 Success MotorBoard
+2022/05/19 08:54:56 Success - 10, error - 0. Percent - 0
+
+---------
+
+2022/05/19 09:28:39 Successfull connected to server
+2022/05/19 09:28:40 Type response
+2022/05/19 09:28:40 
+2022/05/19 09:28:40 Error encoding/hex: invalid byte: U+00FE 'þ'
+2022/05/19 09:28:41 Type response
+2022/05/19 09:28:41 
+2022/05/19 09:28:41 Error encoding/hex: invalid byte: U+00FE 'þ'
+2022/05/19 09:28:42 Type response
+2022/05/19 09:28:42 
+2022/05/19 09:28:42 Error encoding/hex: invalid byte: U+00FE 'þ'
+2022/05/19 09:28:43 Type response
+2022/05/19 09:28:43 
+2022/05/19 09:28:43 Error encoding/hex: invalid byte: U+00FE 'þ'
+2022/05/19 09:28:44 Type response
+2022/05/19 09:28:44 
+2022/05/19 09:28:44 Error encoding/hex: invalid byte: U+00FE 'þ'
+2022/05/19 09:28:45 Type response
+2022/05/19 09:28:45 
+2022/05/19 09:28:45 Error encoding/hex: invalid byte: U+00FE 'þ'
+2022/05/19 09:28:46 Type response
+2022/05/19 09:28:46 
+2022/05/19 09:28:46 Error encoding/hex: invalid byte: U+00FE 'þ'
+2022/05/19 09:28:47 Type response
+2022/05/19 09:28:47 
+2022/05/19 09:28:47 Error encoding/hex: invalid byte: U+00FE 'þ'
+2022/05/19 09:28:48 Type response
+2022/05/19 09:28:48 
+2022/05/19 09:28:48 Error encoding/hex: invalid byte: U+00FE 'þ'
+2022/05/19 09:28:49 Type response
+2022/05/19 09:28:49 
+2022/05/19 09:28:49 Error encoding/hex: invalid byte: U+00FE 'þ'
+2022/05/19 09:28:49 Success - 0, error - 10. Percent - 100
+2022/05/19 09:28:50 Type response
+2022/05/19 09:28:50 
+2022/05/19 09:28:50 Error encoding/hex: invalid byte: U+00FE 'þ'
+2022/05/19 09:28:51 Type response
+2022/05/19 09:28:51 ATCPUID=4718660,48
+2022/05/19 09:28:51 Success MotorBoard
+2022/05/19 09:28:52 Type response
+2022/05/19 09:28:52 
+2022/05/19 09:28:52 Error encoding/hex: invalid byte: U+00D3 'Ó'
+2022/05/19 09:28:53 Type response
+2022/05/19 09:28:53 
+2022/05/19 09:28:53 Error encoding/hex: invalid byte: U+00FE 'þ'
+2022/05/19 09:28:54 Type response
+2022/05/19 09:28:54 
+2022/05/19 09:28:54 Error encoding/hex: invalid byte: U+00FE 'þ'
+2022/05/19 09:28:55 Type response
+2022/05/19 09:28:55 
+2022/05/19 09:28:55 Error encoding/hex: invalid byte: U+00FE 'þ'
+2022/05/19 09:28:56 Type response
+2022/05/19 09:28:56 
+2022/05/19 09:28:56 Error encoding/hex: invalid byte: U+00FE 'þ'
+2022/05/19 09:28:57 Type response
+2022/05/19 09:28:57 
+2022/05/19 09:28:57 Error encoding/hex: invalid byte: U+00FE 'þ'
+2022/05/19 09:28:58 Type response
+2022/05/19 09:28:58 
+2022/05/19 09:28:58 Error encoding/hex: invalid byte: U+00FE 'þ'
+2022/05/19 09:28:59 Type response
+2022/05/19 09:28:59 
+2022/05/19 09:28:59 Error encoding/hex: invalid byte: U+00FE 'þ'
+2022/05/19 09:28:59 Success - 1, error - 9. Percent - 90
+2022/05/19 09:29:00 Type response
+2022/05/19 09:29:00 ATCPUID=4718660,48
+2022/05/19 09:29:00 Success MotorBoard
+2022/05/19 09:29:01 Type response
+2022/05/19 09:29:01 ATCPUID=4718660,48
+2022/05/19 09:29:01 Success MotorBoard
+2022/05/19 09:29:02 Type response
+2022/05/19 09:29:02 ATCPUID=4718660,48
+2022/05/19 09:29:02 Success MotorBoard
+2022/05/19 09:29:03 Type response
+2022/05/19 09:29:03 ATCPUID=4718660,48
+2022/05/19 09:29:03 Success MotorBoard
+2022/05/19 09:29:04 Type response
+2022/05/19 09:29:04 ATCPUID=4718660,48
+2022/05/19 09:29:04 Success MotorBoard
+2022/05/19 09:29:05 Type response
+2022/05/19 09:29:05 ATCPUID=4718660,48
+2022/05/19 09:29:05 Success MotorBoard
+2022/05/19 09:29:06 Type response
+2022/05/19 09:29:06 ATCPUID=4718660,48
+2022/05/19 09:29:06 Success MotorBoard
+2022/05/19 09:29:07 Type response
+2022/05/19 09:29:07 ATCPUID=4718660,48
+2022/05/19 09:29:07 Success MotorBoard
+2022/05/19 09:29:08 Type response
+2022/05/19 09:29:08 ATCPUID=4718660,48
+2022/05/19 09:29:08 Success MotorBoard
+2022/05/19 09:29:09 Type response
+2022/05/19 09:29:09 ATCPUID=4718660,48
+2022/05/19 09:29:09 Success MotorBoard
+2022/05/19 09:29:09 Success - 10, error - 0. Percent - 0

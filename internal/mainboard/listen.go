@@ -22,26 +22,35 @@ func (mb *MainBoard) Listen(bus protos.GlobalBus) {
 
 // Зчитуємо показники з материнської плати
 func (mb *MainBoard) ListenMBStatus(messenger protos.MBSpeaker) {
-	ticker := time.NewTicker(time.Duration(mb.ReadInterval) * time.Millisecond)
+	tickerSensors := time.NewTicker(time.Duration(mb.ReadInterval) * time.Millisecond)
+	tickerVoltage := time.NewTicker(time.Duration(mb.ReadInterval) * time.Millisecond)
 
 	for {
 		select {
 
-		//
-		case <-ticker.C:
-			status, err := mb.GetData("status_sensors")
-
-			if err != nil {
+		case <-tickerSensors.C:
+			if status, err := mb.GetData("status_sensors"); err == nil {
+				if status != mb.StatusSensors {
+					mb.StatusSensors = status
+					messenger.ReciveFromMainboard(&protos.MainboardMessage{
+						Type:    1,
+						Message: status,
+					})
+				}
+			} else {
 				// Логируем ошибку
-				continue
 			}
-
-			if status != mb.StatusSensors {
-				mb.StatusSensors = status
-				messenger.ReciveFromMainboard(&protos.MainboardMessage{
-					Sensor:  true,
-					Message: status,
-				})
+		case <-tickerVoltage.C:
+			if status, err := mb.GetData("status_voltage"); err == nil {
+				if status != mb.StatusVoltage {
+					mb.StatusVoltage = status
+					messenger.ReciveFromMainboard(&protos.MainboardMessage{
+						Type:    3,
+						Message: status,
+					})
+				}
+			} else {
+				// Логируем ошибку
 			}
 		}
 	}

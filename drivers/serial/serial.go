@@ -1,10 +1,11 @@
 package serial
 
 import (
-	"github.com/goburrow/serial"
 	"io"
 	"sync"
 	"time"
+
+	"github.com/goburrow/serial"
 )
 
 var (
@@ -63,7 +64,18 @@ func (s *SerialPort) Write(b []byte) (int, error) {
 func (s *SerialPort) Read() ([]byte, error) {
 	b := make([]byte, 1024)
 	n, err := s.port.Read(b)
-	c:=make([]byte,n)
-	copy(c,b)
+	c := make([]byte, n)
+	copy(c, b)
 	return c, err
+}
+
+func (s *SerialPort) Request(cmd string) (string, error) {
+	b := make([]byte, 1024)
+	_, err := s.Write([]byte(cmd))
+	if err != nil {
+		return "", err
+	}
+
+	b, err = s.Read()
+	return string(b), err
 }

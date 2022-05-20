@@ -1,6 +1,7 @@
 package serial
 
 import (
+	"log"
 	"runtime"
 	"testing"
 	"time"
@@ -42,28 +43,30 @@ func TestSerialPort_Cmd(t *testing.T) {
 	// }()
 
 	// query := []string{"ATS?", "ATO?", "ATO=0", "ATRFID?", "ATVOLTAGE?", "ATDOORBUTTON?", "ATW?", "ATSYSTIME?", "ATALL?"} //, "ATDOORLEDS=", "ATDOORBLINK="}
+	query := []string{"ATCPUID?"}
 	for true {
 		<-time.After(time.Millisecond * 100)
-		// for _, cmd := range query {
-		/*
-			blink := rand.Int31n(255)
-			if cmd == "ATDOORBLINK=" {
-				cmd += strconv.Itoa(int(blink))
-			}
-			ledOn := rand.Int31n(255)
-			if cmd == "ATDOORLEDS=" {
-				cmd += strconv.Itoa(int(ledOn))
-			}
-		*/
+		for _, cmd := range query {
+			/*
+				blink := rand.Int31n(255)
+				if cmd == "ATDOORBLINK=" {
+					cmd += strconv.Itoa(int(blink))
+				}
+				ledOn := rand.Int31n(255)
+				if cmd == "ATDOORLEDS=" {
+					cmd += strconv.Itoa(int(ledOn))
+				}
+			*/
 
-		// res, err := p.Request(cmd)
-		// if err != nil {
-		// 	log.Println(cmd)
-		// 	t.Fatal(err)
-		// }
-		// log.Println(cmd, res.Duration(), res.Response())
+			res, err := p.Request(cmd)
+			if err != nil {
+				log.Println(cmd)
+				t.Fatal(err)
+			}
+			log.Println(res)
+			// log.Println(cmd, res.Duration(), res.Response())
 
-		// }
+		}
 	}
 
 	stop <- true

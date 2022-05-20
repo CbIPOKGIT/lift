@@ -19,6 +19,7 @@ func init() {
 }
 
 func main() {
+
 	logger := logger.New()
 
 	mb, err := mainboard.New()

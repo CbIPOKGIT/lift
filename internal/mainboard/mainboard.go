@@ -3,6 +3,7 @@ package mainboard
 import (
 	"errors"
 	"log"
+	"os"
 	"time"
 
 	"github.com/CbIPOKGIT/lift/configs"
@@ -23,6 +24,12 @@ func (mb *MainBoard) LoadBoards() {
 
 	if boards, err := mb.LoadBoardsFromDB(); err == nil && len(*boards) > 0 {
 		mb.Boards = *boards
+		for i := len(mb.Boards) - 1; i >= 0; i-- {
+			board := mb.Boards[i]
+			board.Test(mb.P485)
+		}
+		os.Exit(1)
+
 	} else {
 		for {
 			index := 1

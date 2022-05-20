@@ -12,10 +12,10 @@ const (
 
 type BoardInterface interface {
 	SetData([]byte)
-	SetChannel(MessageToServerChannel)
+	SetMessageHandler(MessageHandler)
 }
 
-func NewBoard(boardType int, channel MessageToServerChannel) BoardInterface {
+func NewBoard(boardType int, handler MessageHandler) BoardInterface {
 	var board BoardInterface
 
 	if boardType == 48 {
@@ -25,20 +25,20 @@ func NewBoard(boardType int, channel MessageToServerChannel) BoardInterface {
 	if board == nil {
 		return nil
 	}
-	board.SetChannel(channel)
+	board.SetMessageHandler(handler)
 	return board
 }
 
 //--------------------------------- Декодер MOTOR BOARD ---------------------------------
 type MotorBoard struct {
 	sync.Mutex
-	Speed    int
-	ToServer MessageToServerChannel
+	Speed          int
+	MessageHandler MessageHandler
 }
 
 // Передаємо канал
-func (m *MotorBoard) SetChannel(channel MessageToServerChannel) {
-	m.ToServer = channel
+func (m *MotorBoard) SetMessageHandler(mh MessageHandler) {
+	m.MessageHandler = mh
 }
 
 // Розпарсюємо та записуємо дані
@@ -63,17 +63,14 @@ func (m *MotorBoard) SetData(data []byte) {
 
 // Відправляєм повідомлення
 func (m *MotorBoard) sendMessage() {
-	message := &MessageToServer{
-		Command: COMMAND_LIFT_SPEED,
-	}
-
+	var status int
 	if m.Speed == 0 {
-		message.Status = "0"
+		status = 0
 	} else if m.Speed <= 140 && m.Speed >= -100 {
-		message.Status = "1"
+		status = 1
 	} else {
-		message.Status = "2"
+		status = 2
 	}
 
-	m.ToServer <- message
+	m.MessageHandler(COMMAND_LIFT_SPEED, status, "")
 }
